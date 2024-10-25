@@ -40,6 +40,12 @@ else if (age>=60){
     const payAmount = price - discount;
     console.log(payAmount);
 }
+else if(age >= 50){
+    // 25% discount
+}
+else if(age >= 40 ){
+    // 10% discount
+}
 else{
     console.log(price);
 }
