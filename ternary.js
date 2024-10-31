@@ -30,7 +30,7 @@ if (isLeader === true) {
 }
 console.log(price); 
 
-price = isLeader === true ? 0 : price + 100;
+ isLeader === true ? 0 : price + 100;
 
 
 
